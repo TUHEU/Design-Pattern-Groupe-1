@@ -1,1 +1,64 @@
+Types of Design Patterns
+i. Creational Design Patterns
+Concerned with object creation mechanisms.
+ii. Structural Design Patterns
+Concerned with class and object composition.
+iii. Behavioral Design Patterns
+Concerned with object interaction and responsibility.
+CREATIONAL DESIGN PATTERNS
+1. Singleton Pattern
+Intent
+Ensure that a class has only one instance and provide a global access point to it.
+Motivation
+Useful when exactly one object is needed to coordinate actions (e.g., database connection, configuration manager).
+Structure
+Private constructor
+Static instance
+Public static method to access instance
+
+2. Factory Method Pattern
+Intent
+Define an interface for creating objects but let subclasses decide which class to instantiate.
+Motivation
+Avoid tight coupling between code and object creation.
+Structure
+Product interface
+Concrete products
+Factory class
+
+3. Builder Pattern
+Intent
+Separate the construction of a complex object from its representation.
+Motivation
+Useful when an object has many optional parameters.
+
+STRUCTURAL DESIGN PATTERNS
+1. Adapter Pattern
+Intent
+Convert the interface of a class into another interface clients expect.
+Motivation
+Used when existing classes cannot work together due to incompatible interfaces.
+
+2. Decorator Pattern
+Intent
+Attach additional responsibilities to an object dynamically.
+Motivation
+Avoid subclass explosion.
+
+3. Facade Pattern
+Intent
+Provide a simplified interface to a complex subsystem.
+
+BEHAVIORAL DESIGN PATTERNS
+1. Observer Pattern
+Intent
+Define a one-to-many dependency so that when one object changes state, all dependents are notified.
+
+2. Strategy Pattern
+Intent
+Define a family of algorithms, encapsulate each one, and make them interchangeable.
+
+3. Command Pattern
+Intent
+Encapsulate a request as an object.
 
