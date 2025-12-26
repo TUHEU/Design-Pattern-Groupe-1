@@ -1,1 +1,42 @@
+### **Difference Between Design Patterns and Algorithms (Point Form)**
+
+* **Purpose**
+
+  * Design Patterns: Solve **software design and architecture problems**
+  * Algorithms: Solve **computational and logical problems**
+
+* **Level of Abstraction**
+
+  * Design Patterns: **High-level** (class structure and object interaction)
+  * Algorithms: **Low-level** (step-by-step procedures)
+
+* **Nature**
+
+  * Design Patterns: **Conceptual solutions** or templates
+  * Algorithms: **Concrete instructions** to follow
+
+* **Focus**
+
+  * Design Patterns: **How components are organized**
+  * Algorithms: **How a task is executed**
+
+* **Reusability**
+
+  * Design Patterns: Reusable **design ideas**
+  * Algorithms: Reusable **exact procedures**
+
+* **Implementation**
+
+  * Design Patterns: Can be implemented in **different ways**
+  * Algorithms: Implemented in a **specific way**
+
+* **Output**
+
+  * Design Patterns: Well-structured and maintainable code
+  * Algorithms: A computed result
+
+* **Examples**
+
+  * Design Patterns: Singleton, Factory, Observer
+  * Algorithms: Sorting, Searching, Pathfinding
 
